@@ -1,4 +1,7 @@
 # Dockerized Open5gs Testbed
+
+Its primary goal of this tutorial is to provide a ready-to-use setup for Open5GS with Kamailio IMS to support VoLTE experimentation in order to help researchers and students quickly deploy a minimal viable environment, reducing time spent on initial debugging and setup, so they can focus on deeper study and development.
+
 This repository contains docker files to deploy an Over-The-Air (OTA) 4G/5G network using following projects:
 - Core Network (4G/5G) - open5gs - https://github.com/open5gs/open5gs
 - IMS (VoLTE + VoNR) - kamailio - https://github.com/kamailio/kamailio
@@ -18,8 +21,7 @@ Docker host machine
 Over-The-Air setups: 
 
 - srsRAN_Project gNB using Ettus USRP B210
-- srsRAN_4G eNB using LimeSDR Mini v1.3
-- srsRAN_4G eNB using LimeSDR-USB
+
 
 
 ## Prepare Docker images
